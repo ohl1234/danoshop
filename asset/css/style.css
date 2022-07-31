@@ -701,3 +701,28 @@ input, select, button, fieldset {
 .footer .link-playstore::before {
   background-image: url(../images/playstore-download.png);
 }
+
+.sc-visual .swiper {
+  position: relative;
+}
+.sc-visual .pagination {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  z-index: 2;
+  transform: translateX(-50%);
+  display: flex;
+  padding: 10px;
+}
+.sc-visual .pagination a {
+  display: block;
+  width: 8px;
+  height: 8px;
+  background-color: #000;
+  opacity: 0.25;
+  border-radius: 50%;
+  margin: 0 6px;
+}
+.sc-visual .pagination a:hover {
+  opacity: 1;
+}
