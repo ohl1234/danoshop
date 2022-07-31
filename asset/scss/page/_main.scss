@@ -79,7 +79,7 @@
     }
     .product-list{
         display: flex;
-        gap: 20px;
+        justify-content: space-between;
     }
     .product-item{
         width: calc((100% - 40px) / 3);

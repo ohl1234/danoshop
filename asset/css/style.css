@@ -898,7 +898,7 @@ input, select, button, fieldset {
 }
 .sc-type1 .product-list {
   display: flex;
-  gap: 20px;
+  justify-content: space-between;
 }
 .sc-type1 .product-item {
   width: calc((100% - 40px) / 3);
