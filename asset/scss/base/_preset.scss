@@ -42,3 +42,106 @@
     letter-spacing: -1px;
     white-space: nowrap
 }
+
+// main-common
+.group-flex3,
+.group-flex4,
+.group-flex5,
+.group-flex6,
+.group-flex7{
+    padding: 0 20px;
+}
+.text-box{
+    position: relative;
+    padding: 16px 20px;
+    .title{
+        font-size: 22px;
+        line-height: 150%;
+        font-weight: 700;
+        color: $colors-gray9;
+        word-break: keep-all;
+        @include ellip(150%, 2);
+        margin-bottom: 4px;
+    }
+    .desc{
+        font-size: 16px;
+        line-height: 150%;
+        font-weight: 500;
+        color: $colors-gray6;
+    }
+    .link-more{
+        position: absolute;
+        right: 16px;
+        top: 20px;
+    }
+}
+.thumb-box{
+    position: relative;
+    img{
+        border-radius: 12px;
+    }
+}
+.badge-box{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.sale{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 18px;
+    padding: 4px;
+    margin-right: 4px;
+    line-height: 11px;
+    font-size: 11px;
+    font-weight: 700;
+    border-radius: 4px;
+    text-transform: uppercase;
+    color: $colors-white;
+    background-color: $colors-coral150;
+}
+.new{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 18px;
+    padding: 4px;
+    line-height: 11px;
+    font-size: 11px;
+    font-weight: 700;
+    border-radius: 4px;
+    text-transform: uppercase;
+    color: $colors-coral100;
+    background-color: $colors-coral10;
+}
+.cart{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    width: 40px;
+    height: 40px;
+    padding: 8px;
+    border-radius: 50%;
+    color: $colors-white;
+    box-shadow:  0px 0px 2px rgba(0, 0, 0, 0.1);
+    background-color: rgba($color: #000000, $alpha: 0.6);
+}
+.info-box{
+    padding: 10px 0;
+}
+.free-delivery{
+    display: flex;
+    font-size: 13px;
+    line-height: 160%;
+    color: $colors-gray6;
+}
+.current-sale{
+    display: block;
+}
+.product-name{
+    display: block;
+}
+.price{
+    display: block;
+}
