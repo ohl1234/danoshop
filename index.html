@@ -31,7 +31,7 @@
                     </h1>
                 </div>
                 <div class="search-area">
-                    <button type="button">
+                    <button type="button" class="search-btn">
                         <span class="blind">검색버튼</span>
                         <svg width="26" height="26" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M11.3888 4.5C15.2068 4.5 18.2777 7.50731 18.2777 11.1891C18.2777 13.1815 17.3812 14.9727 15.9519 16.2007C15.7017 16.4157 15.4353 16.6132 15.1546 16.7915C14.909 16.9475 14.6525 17.0887 14.3865 17.2137C13.4812 17.6392 12.4646 17.8783 11.3888 17.8783C7.57088 17.8783 4.5 14.871 4.5 11.1891C4.5 7.50731 7.57088 4.5 11.3888 4.5Z" stroke="currentColor"></path><path d="M16.2778 16.4053L21 20.9999" stroke="currentColor" stroke-linecap="round"></path>
@@ -42,17 +42,15 @@
                             <form action="#" method="get">
                                 <fieldset>
                                     <legend class="blind">검색영역</legend>
-                                    <div class="search-wrap">
+                                    <div class="search-box">
                                         <input type="text" class="input-text" placeholder="다노닭">
-                                        <button type="submit"><span class="blind">검색</span></button>
+                                        <button type="submit" class="btn-submit"><span class="blind">검색</span></button>
+                                        <button type="button" class="btn-close">
+                                            <span class="blind">닫기</span>
+                                        </button>
                                     </div>
                                 </fieldset>
                             </form>
-                            <button type="button">
-                                <span class="blind">닫기</span>
-                                <span class="close-bar"></span>
-                                <span class="close-bar"></span>
-                            </button>
                         </div>
                         <div class="view-container">
                             <span class="best">지금 인기있는</span>
@@ -97,14 +95,14 @@
             <div class="group-flex2">
                 <nav class="gnb-area">
                     <ul class="gnb-list">
-                        <li class="gnb-item">
+                        <li class="gnb-item active">
                             <a href="#" class="link-home">홈</a>
                         </li>
                         <li class="gnb-item">
                             <a href="#" class="link-story">스토리</a>
                         </li>
                         <li class="gnb-item">
-                            <a href="#" class="link-vegan">비건</a>
+                            <a href="#" class="link-vegan">🌱비건</a>
                         </li>
                         <li class="gnb-item">
                             <a href="#" class="link-best">인기상품</a>
@@ -119,10 +117,10 @@
                             <a href="#" class="link-meal">식단</a>
                         </li>
                         <li class="gnb-item">
-                            <a href="#" class="link-bake">베이커리</a>
+                            <a href="#" class="link-bake">🥐베이커리</a>
                         </li>
                         <li class="gnb-item">
-                            <a href="#" class="link-workout">운동</a>
+                            <a href="#" class="link-workout">💪운동</a>
                         </li>
                         <li class="gnb-item">
                             <a href="#" class="link-dessert">분식/간식</a>

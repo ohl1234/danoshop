@@ -16,10 +16,11 @@ ul,ol{
 body {
     letter-spacing: -0.3px; 
     font-family: $font-kr1;
-    color: $color-dark1;
-    //min-width: 1152px; // 그리드 사이즈
+    color: $colors-dark1;
     font-size: 12px;
+    font-weight: 400;
     background-color: #fff;
+    line-height: 160%;
     scroll-behavior: smooth;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;

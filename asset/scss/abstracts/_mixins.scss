@@ -19,3 +19,11 @@
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+@mixin header-Touch-space{
+    padding: 8px;
+    width: auto;
+    height: auto;
+    border: 0px;
+    background-color: transparent;
+}
