@@ -460,6 +460,21 @@ input, select, button, fieldset {
   background-color: #FF6F61;
   transform: scaleY(1);
 }
+.header .gnb-item i {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-size: contain;
+}
+.header .gnb-item i.ic-vegan {
+  background-image: url(../images/vegan.png);
+}
+.header .gnb-item i.ic-bake {
+  background-image: url(../images/bake.png);
+}
+.header .gnb-item i.ic-workout {
+  background-image: url(../images/workout.png);
+}
 .header .link-story::before,
 .header .link-vegan::before {
   position: absolute;

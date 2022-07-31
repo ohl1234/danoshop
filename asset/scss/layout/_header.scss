@@ -202,6 +202,21 @@
                 }
             }
         }
+        i{
+            display: inline-block;
+            width: 16px;
+            height: 16px;
+            background-size: contain;
+            &.ic-vegan{
+                background-image: url(../images/vegan.png);
+            }
+            &.ic-bake{
+                background-image: url(../images/bake.png);
+            }
+            &.ic-workout{
+                background-image: url(../images/workout.png);
+            }
+        }
     }
     .link-story,
     .link-vegan{
@@ -217,5 +232,4 @@
             background: $colors-coral100;
         }
     }
-
 }
