@@ -472,3 +472,217 @@ input, select, button, fieldset {
   border-radius: 50%;
   background: #FF6F61;
 }
+
+.footer {
+  background: #F3F3F3;
+}
+.footer .sc-help {
+  padding: 24px;
+  background: #FFFFFF;
+  margin-bottom: 10px;
+}
+.footer .sc-help .title {
+  display: block;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 16px;
+  color: #3B3B3B;
+  margin-bottom: 4px;
+}
+.footer .group-flex8 {
+  margin-bottom: 24px;
+}
+.footer .group-flex8 .title {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+  line-height: 21px;
+  font-weight: 700;
+  font-size: 18px;
+  color: #3B3B3B;
+}
+.footer .group-flex8 .title svg {
+  margin-right: 5px;
+}
+.footer .group-flex8 .desc {
+  font-size: 14px;
+  line-height: 150%;
+  color: #A1A1A1;
+  margin: 0px;
+}
+.footer .group-flex9 {
+  margin-bottom: 36px;
+}
+.footer .group-flex9 .chat-item {
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  height: 58px;
+  font-size: 15px;
+  line-height: 16px;
+  color: #696969;
+}
+.footer .group-flex9 .chat-item:first-of-type {
+  color: #FF6F61;
+}
+.footer .group-flex9 .chat-item:not(:last-of-type) {
+  border-bottom: 1px solid #ECECEC;
+}
+.footer .group-flex10 .chat-item {
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  height: 58px;
+  font-size: 15px;
+  line-height: 16px;
+  color: #696969;
+}
+.footer .group-flex10 .chat-item:not(:last-of-type) {
+  border-bottom: 1px solid #ECECEC;
+}
+.footer .sc-sns {
+  padding: 24px;
+  background: #FFFFFF;
+}
+.footer .sc-sns .title {
+  display: block;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 16px;
+  color: #3B3B3B;
+}
+.footer .group-flex11 {
+  margin-bottom: 40px;
+}
+.footer .group-flex11 .title {
+  margin-bottom: 14px;
+}
+.footer .group-flex11 .sns-list {
+  display: flex;
+}
+.footer .group-flex11 .sns-item {
+  width: 44px;
+  height: 44px;
+}
+.footer .group-flex11 .sns-item + li {
+  margin-left: 16px;
+}
+.footer .group-flex11 .link-sns::after {
+  content: "";
+  display: inline-block;
+  vertical-align: top;
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/youtube.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.footer .group-flex11 .instagram::after {
+  background-image: url(../images/instagram.png);
+}
+.footer .group-flex11 .blog::after {
+  background-image: url(../images/blog.png);
+}
+.footer .group-flex11 .facebook::after {
+  background-image: url(../images/facebook.png);
+}
+.footer .group-flex12 {
+  margin-bottom: 20px;
+}
+.footer .group-flex12 .title {
+  margin-bottom: 16px;
+}
+.footer .group-flex12 .contact-item {
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  height: 58px;
+  font-size: 15px;
+  line-height: 16px;
+  color: #696969;
+}
+.footer .group-flex12 .contact-item:not(:last-of-type) {
+  border-bottom: 1px solid #ECECEC;
+}
+.footer .group-flex13 .link-login {
+  display: block;
+  padding: 0px 10px;
+  cursor: pointer;
+  border: 1px solid #DADADA;
+  font-size: 14px;
+  line-height: 48px;
+  height: 48px;
+  text-align: center;
+  border-radius: 8px;
+  background: #FFFFFF;
+  color: #696969;
+}
+.footer .corp-area {
+  padding: 14px 20px;
+  border-bottom: 1px solid #ECECEC;
+}
+.footer .corp-list {
+  display: flex;
+}
+.footer .corp-item {
+  font-size: 13px;
+  line-height: 19px;
+}
+.footer .corp-item a {
+  color: #696969;
+}
+.footer .corp-item:last-of-type::after {
+  display: none;
+}
+.footer .corp-item::after {
+  display: inline-block;
+  content: "|";
+  padding: 0px 10px;
+  color: #ECECEC;
+}
+.footer .addr-area {
+  padding: 16px 20px 20px;
+  line-height: 21px;
+  color: #A1A1A1;
+  font-size: 12px;
+  font-weight: 500;
+}
+.footer .addr-area a {
+  text-decoration: underline;
+}
+.footer .download-area {
+  display: flex;
+  align-items: center;
+  padding: 0px 20px 60px;
+}
+.footer .download-area > a {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  line-height: 18px;
+  color: #A1A1A1;
+}
+.footer .download-area > a::before {
+  content: "";
+  display: inline-block;
+  vertical-align: top;
+  width: 36px;
+  height: 36px;
+  margin: 0px 8px 0px 0px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.footer .link-ios::before {
+  background-image: url(../images/ios-download.png);
+}
+.footer .link-ios::after {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 20px;
+  background: #ECECEC;
+  margin: 0px 16px;
+}
+.footer .link-playstore::before {
+  background-image: url(../images/playstore-download.png);
+}
