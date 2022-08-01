@@ -64,6 +64,8 @@ body {
   font-weight: 400;
   background-color: #fff;
   line-height: 160%;
+  width: 640px;
+  margin: 0 auto;
   scroll-behavior: smooth;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -419,6 +421,32 @@ input, select, button, fieldset {
   background-image: url(../images/circle.png);
 }
 
+.fixed-area {
+  position: absolute;
+  bottom: 0;
+  right: 90px;
+}
+
+.fixed-box {
+  position: fixed;
+  bottom: 54px;
+  z-index: 100;
+}
+
+.btn-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 48px;
+  height: 48px;
+  margin: 20px 21px;
+  opacity: 0.9;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.9);
+  color: #222222;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.1), 2px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
 .header {
   position: relative;
 }
@@ -672,6 +700,7 @@ input, select, button, fieldset {
 }
 
 .footer {
+  position: relative;
   background: #F3F3F3;
 }
 .footer .banner-area {
@@ -889,6 +918,7 @@ input, select, button, fieldset {
 }
 
 .container {
+  position: relative;
   padding-bottom: 40px;
 }
 
@@ -1080,4 +1110,40 @@ input, select, button, fieldset {
 .sc-type5 .current-sale {
   font-size: 12px;
   line-height: 150%;
+}
+
+.sc-recipe {
+  padding: 20px 0;
+}
+.sc-recipe .swiper-slide a {
+  position: relative;
+}
+.sc-recipe .swiper-slide img {
+  width: 100%;
+}
+.sc-recipe .dim {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-radius: 24px;
+  background: linear-gradient(rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.6) 100%);
+}
+.sc-recipe .info-box {
+  position: absolute;
+  bottom: 24px;
+  left: 20px;
+  color: #FFFFFF;
+}
+.sc-recipe .recipe-tit {
+  padding-bottom: 10px;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 150%;
+}
+.sc-recipe .id,
+.sc-recipe .more {
+  font-size: 16px;
+  line-height: 160%;
 }
