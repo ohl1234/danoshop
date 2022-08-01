@@ -249,6 +249,8 @@ input, select, button, fieldset {
   padding: 16px 20px;
 }
 .text-box .title {
+  display: flex;
+  align-items: center;
   font-size: 22px;
   line-height: 150%;
   font-weight: 700;
@@ -264,6 +266,8 @@ input, select, button, fieldset {
   margin-bottom: 4px;
 }
 .text-box .desc {
+  display: flex;
+  align-items: center;
   font-size: 16px;
   line-height: 150%;
   font-weight: 500;
@@ -363,6 +367,56 @@ input, select, button, fieldset {
   font-weight: 700;
   margin-right: 2px;
   color: #3B3B3B;
+}
+
+.ic-title {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  vertical-align: -4px;
+  margin-left: -4px;
+  background-size: contain;
+}
+.ic-title.salad {
+  background-image: url(../images/salad.png);
+}
+.ic-title.greenlove {
+  background-image: url(../images/greenlove.png);
+}
+.ic-title.workout {
+  background-image: url(../images/workout.png);
+}
+.ic-title.pill {
+  background-image: url(../images/pill.png);
+}
+.ic-title.hot {
+  background-image: url(../images/fire.png);
+}
+.ic-title.cup {
+  background-image: url(../images/cup.png);
+}
+.ic-title.basket {
+  background-image: url(../images/basket.png);
+}
+.ic-title.attention {
+  background-image: url(../images/attention.png);
+}
+.ic-title.boom {
+  background-image: url(../images/boom.png);
+}
+
+.ic-desc {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  vertical-align: -4px;
+  background-size: contain;
+}
+.ic-desc.purplelove {
+  background-image: url(../images/purplelove.png);
+}
+.ic-desc.circle {
+  background-image: url(../images/circle.png);
 }
 
 .header {

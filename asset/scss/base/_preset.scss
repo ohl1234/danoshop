@@ -55,6 +55,8 @@
     position: relative;
     padding: 16px 20px;
     .title{
+        display: flex;
+        align-items: center;
         font-size: 22px;
         line-height: 150%;
         font-weight: 700;
@@ -64,6 +66,8 @@
         margin-bottom: 4px;
     }
     .desc{
+        display: flex;
+        align-items: center;
         font-size: 16px;
         line-height: 150%;
         font-weight: 500;
@@ -155,5 +159,53 @@
         font-weight: 700;
         margin-right: 2px;
         color: $colors-gray8;
+    }
+}
+.ic-title{
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    vertical-align: -4px;
+    margin-left: -4px;
+    background-size: contain;
+    &.salad{
+        background-image: url(../images/salad.png);
+    }
+    &.greenlove{
+        background-image: url(../images/greenlove.png);
+    }
+    &.workout{
+        background-image: url(../images/workout.png);
+    }
+    &.pill{
+        background-image: url(../images/pill.png);
+    }
+    &.hot{
+        background-image: url(../images/fire.png);
+    }
+    &.cup{
+        background-image: url(../images/cup.png);
+    }
+    &.basket{
+        background-image: url(../images/basket.png);
+    }
+    &.attention{
+        background-image: url(../images/attention.png);
+    }
+    &.boom{
+        background-image: url(../images/boom.png);
+    }
+}
+.ic-desc{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    vertical-align: -4px;
+    background-size: contain;
+    &.purplelove{
+        background-image: url(../images/purplelove.png);
+    }
+    &.circle{
+        background-image: url(../images/circle.png);
     }
 }
