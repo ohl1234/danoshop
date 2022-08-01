@@ -204,38 +204,6 @@ input, select, button, fieldset {
   padding-bottom: 0px;
 }
 
-#u_skip {
-  position: relative;
-  z-index: 3000;
-}
-
-#u_skip a {
-  position: absolute;
-  top: -30px;
-  left: 0;
-  width: 138px;
-  border: 1px solid #4ec53d;
-  background: #333;
-  text-align: center;
-}
-
-#u_skip a:active,
-#u_skip a:focus {
-  top: 0;
-  text-decoration: none;
-  z-index: 1000;
-}
-
-#u_skip span {
-  display: inline-block;
-  padding: 2px 6px 0 0;
-  font-size: 13px;
-  line-height: 26px;
-  color: #fff;
-  letter-spacing: -1px;
-  white-space: nowrap;
-}
-
 .group-flex3,
 .group-flex4,
 .group-flex5,
@@ -599,7 +567,7 @@ input, select, button, fieldset {
   display: block;
   width: 16px;
   height: 16px;
-  line-height: 16px;
+  line-height: 14px;
   border-radius: 50%;
   text-align: center;
   color: #FFFFFF;
