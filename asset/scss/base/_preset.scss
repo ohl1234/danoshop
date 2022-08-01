@@ -129,6 +129,8 @@
 }
 .info-box{
     padding: 10px 0;
+    display: flex;
+    flex-direction: column;
 }
 .free-delivery{
     display: flex;
@@ -137,11 +139,21 @@
     color: $colors-gray6;
 }
 .current-sale{
-    display: block;
+    color: $colors-coral100;
+    font-weight: 700;
+    del{
+        color: $colors-gray6;
+        font-weight: 400;
+    }
 }
 .product-name{
-    display: block;
+    color: $colors-gray8;
+    font-weight: 500;
 }
 .price{
-    display: block;
+    span{
+        font-weight: 700;
+        margin-right: 2px;
+        color: $colors-gray8;
+    }
 }

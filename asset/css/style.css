@@ -334,6 +334,8 @@ input, select, button, fieldset {
 
 .info-box {
   padding: 10px 0;
+  display: flex;
+  flex-direction: column;
 }
 
 .free-delivery {
@@ -344,15 +346,23 @@ input, select, button, fieldset {
 }
 
 .current-sale {
-  display: block;
+  color: #FF6F61;
+  font-weight: 700;
+}
+.current-sale del {
+  color: #A1A1A1;
+  font-weight: 400;
 }
 
 .product-name {
-  display: block;
+  color: #3B3B3B;
+  font-weight: 500;
 }
 
-.price {
-  display: block;
+.price span {
+  font-weight: 700;
+  margin-right: 2px;
+  color: #3B3B3B;
 }
 
 .header {
@@ -610,6 +620,9 @@ input, select, button, fieldset {
 .footer {
   background: #F3F3F3;
 }
+.footer .banner-area {
+  padding: 0;
+}
 .footer .sc-help {
   padding: 24px;
   background: #FFFFFF;
@@ -821,6 +834,10 @@ input, select, button, fieldset {
   background-image: url(../images/playstore-download.png);
 }
 
+.container {
+  padding-bottom: 40px;
+}
+
 .sc-visual {
   margin-bottom: 20px;
 }
@@ -849,52 +866,40 @@ input, select, button, fieldset {
   opacity: 1;
 }
 
-.sc-type1 .group-flex3 {
-  padding-bottom: 20px;
+.sc-type1 {
+  padding: 20px 0;
 }
 .sc-type1 .group-flex3 .product-name {
   margin-top: 2px;
   font-size: 16px;
   line-height: 160%;
-  color: #3B3B3B;
-  font-weight: 500;
 }
 .sc-type1 .group-flex3 .price {
   font-size: 14px;
 }
 .sc-type1 .group-flex3 .price span {
-  font-weight: 700;
   font-size: 20px;
   line-height: 50px;
-  color: #3B3B3B;
+}
+.sc-type1 .group-flex4 {
+  padding-top: 20px;
 }
 .sc-type1 .group-flex4 .current-sale {
-  color: #FF6F61;
   font-size: 12px;
   line-height: 150%;
-  font-weight: 700;
-}
-.sc-type1 .group-flex4 .current-sale del {
-  color: #A1A1A1;
-  font-weight: 400;
 }
 .sc-type1 .group-flex4 .product-name {
   margin-bottom: 5px;
   font-size: 12px;
   line-height: 150%;
-  color: #3B3B3B;
-  font-weight: 500;
 }
 .sc-type1 .group-flex4 .price {
   font-size: 12px;
   line-height: 150%;
 }
 .sc-type1 .group-flex4 .price span {
-  font-weight: 700;
   font-size: 16px;
   line-height: 18px;
-  color: #222222;
-  margin-right: 2px;
 }
 .sc-type1 .product-list {
   display: flex;
@@ -902,4 +907,123 @@ input, select, button, fieldset {
 }
 .sc-type1 .product-item {
   width: calc((100% - 40px) / 3);
+}
+
+.sc-type2 {
+  padding: 20px 0;
+}
+.sc-type2 .product-list {
+  display: flex;
+  justify-content: space-between;
+}
+.sc-type2 .product-item {
+  width: calc((100% - 20px) / 2);
+}
+.sc-type2 .current-sale {
+  font-size: 13px;
+  line-height: 160%;
+}
+.sc-type2 .product-name {
+  margin: 2px 0 5px 0;
+  font-size: 14px;
+  line-height: 160%;
+}
+.sc-type2 .price {
+  font-size: 13px;
+  line-height: 160%;
+}
+.sc-type2 .price span {
+  font-size: 18px;
+  line-height: 18px;
+}
+
+.banner-area {
+  padding: 20px 0;
+}
+
+.sc-type3 {
+  padding: 20px 0;
+}
+.sc-type3 .product-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.sc-type3 .product-item {
+  width: calc((100% - 20px) / 2);
+}
+.sc-type3 .product-item:nth-child(n+3) {
+  margin-top: 20px;
+}
+.sc-type3 .current-sale {
+  font-size: 13px;
+  line-height: 160%;
+}
+.sc-type3 .product-name {
+  margin-bottom: 4px;
+  font-size: 14px;
+  line-height: 160%;
+}
+.sc-type3 .price {
+  font-size: 13px;
+  line-height: 160%;
+}
+.sc-type3 .price span {
+  font-size: 18px;
+  line-height: 18px;
+}
+
+.sc-type4 .product-name {
+  margin-bottom: 4px;
+  font-size: 16px;
+  line-height: 160%;
+}
+.sc-type4 .price {
+  font-size: 14px;
+  line-height: 160%;
+}
+.sc-type4 .price span {
+  font-size: 20px;
+  line-height: 150%;
+}
+.sc-type4 .price del {
+  color: #A1A1A1;
+}
+.sc-type4 .current-sale {
+  color: #FF6F61;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 150%;
+}
+
+.sc-type5 {
+  padding: 20px 0;
+}
+.sc-type5 .product-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.sc-type5 .product-item {
+  width: calc((100% - 40px) / 3);
+}
+.sc-type5 .product-item:nth-child(n+4) {
+  margin-top: 20px;
+}
+.sc-type5 .product-name {
+  margin-bottom: 4px;
+  font-size: 12px;
+  line-height: 150%;
+}
+.sc-type5 .price {
+  font-size: 12px;
+  line-height: 150%;
+}
+.sc-type5 .price span {
+  font-size: 18px;
+  line-height: 18px;
+}
+.sc-type5 .current-sale {
+  font-size: 12px;
+  line-height: 150%;
 }
