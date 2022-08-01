@@ -608,15 +608,20 @@ input, select, button, fieldset {
 .header .group-flex2 {
   position: -webkit-sticky;
   position: sticky;
-  overflow-x: auto;
+  top: 60px;
+  left: 0;
+  height: 46px;
   box-shadow: inset 0 -1px 0 0 #F3F3F3;
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
 }
-.header .group-flex2::-webkit-scrollbar {
+.header .gnb-area {
+  overflow-x: auto;
+}
+.header .gnb-area::-webkit-scrollbar {
   display: none;
 }
-.header .group-flex2::after {
+.header .gnb-area::after {
   content: "";
   position: absolute;
   top: 0;
@@ -702,6 +707,9 @@ input, select, button, fieldset {
   background: #F3F3F3;
 }
 .footer .banner-area {
+  padding: 0;
+}
+.footer .banner-area a {
   padding: 0;
 }
 .footer .sc-help {
@@ -933,19 +941,21 @@ input, select, button, fieldset {
   z-index: 2;
   transform: translateX(-50%);
   display: flex;
+  width: auto;
   padding: 10px;
 }
-.sc-visual .pagination a {
-  display: block;
-  width: 8px;
-  height: 8px;
-  background-color: #000;
-  opacity: 0.25;
-  border-radius: 50%;
+.sc-visual .swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet, .sc-visual .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
   margin: 0 6px;
 }
-.sc-visual .pagination a:hover {
+.sc-visual .swiper-pagination-bullet {
+  width: 9px;
+  height: 9px;
+}
+.sc-visual .swiper-pagination-bullet:hover {
   opacity: 1;
+}
+.sc-visual .swiper-pagination-bullet-active {
+  background-color: #000;
 }
 
 .sc-type1 {
@@ -1021,6 +1031,10 @@ input, select, button, fieldset {
 
 .banner-area {
   padding: 20px 0;
+}
+.banner-area a {
+  display: block;
+  padding: 0 20px;
 }
 
 .sc-type3 {
@@ -1113,6 +1127,15 @@ input, select, button, fieldset {
 .sc-recipe {
   padding: 20px 0;
 }
+.sc-recipe .slide2 {
+  padding: 10px 0 24px 20px;
+}
+.sc-recipe .swiper-wrapper {
+  padding-bottom: 26px;
+}
+.sc-recipe .swiper-slide {
+  width: calc(70% + 20px);
+}
 .sc-recipe .swiper-slide a {
   position: relative;
 }
@@ -1144,4 +1167,14 @@ input, select, button, fieldset {
 .sc-recipe .more {
   font-size: 16px;
   line-height: 160%;
+}
+.sc-recipe .swiper-horizontal > .swiper-scrollbar, .sc-recipe .swiper-scrollbar.swiper-scrollbar-horizontal {
+  bottom: 0;
+  height: 2px;
+  background-color: #F3F3F3;
+  position: relative;
+}
+.sc-recipe .swiper-scrollbar > .swiper-scrollbar-drag {
+  width: 6.6667%;
+  background-color: #222222;
 }

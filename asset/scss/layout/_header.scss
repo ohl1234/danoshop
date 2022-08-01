@@ -139,10 +139,15 @@
     }
     .group-flex2{
         position: sticky;
-        overflow-x: auto;
+        top: 60px;
+        left: 0;
+        height: 46px;
         box-shadow: inset 0 -1px 0 0 $colors-gray2;
         -ms-overflow-style: none; /* IE and Edge */
         scrollbar-width: none; /* Firefox */
+    }
+    .gnb-area{
+        overflow-x: auto;
         &::-webkit-scrollbar{
             display: none;
         }
@@ -157,7 +162,6 @@
             background: linear-gradient(to right, rgba(0,0,0,0), rgba(0,0,0,0) 50%, $colors-white);
         }
     }
-    .gnb-area{}
     .gnb-list{
         display: inline-flex;
         margin: 0 20px;
